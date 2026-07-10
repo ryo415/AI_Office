@@ -35,6 +35,9 @@ agents/       Role definitions
 workflows/    Repeatable work processes
 skills/       Reusable task-specific capabilities
 templates/    Output formats
+prompts/      Chat prompts for Chief of Staff and role-specific conversations
+exports/      Integrated prompts for ChatGPT or other external AI environments
+runs/         Markdown logs for role-routed conversations or executions
 memory/       Durable user context, preferences, decisions, and project index
 projects/     Active or planned project files
 inbox/        Unstructured ideas and rough notes
@@ -47,6 +50,12 @@ inbox/        Unstructured ideas and rough notes
 3. Supporting roles contribute only when their responsibility is needed.
 4. Outputs stay in Markdown unless the user explicitly asks for external publishing.
 5. Notion, GitHub, and MCP integrations should consume these Markdown files later instead of replacing them.
+
+## Prompt Exports
+
+- `prompts/chief-chat.md` is the Codex Chief of Staff prompt for repository-aware work.
+- `exports/chatgpt-chief-of-staff.md` is the ChatGPT / Custom GPT Chief of Staff export.
+- `prompts/export-chatgpt-chief-of-staff.md` is the Codex prompt for refreshing the ChatGPT export from current AI_Office files.
 
 ## Using AI_Office From Other Projects
 

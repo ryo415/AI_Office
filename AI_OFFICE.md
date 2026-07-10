@@ -110,6 +110,7 @@ Agent Mode is a future execution model for more autonomous or tool-assisted runs
 - `skills/` defines reusable execution rules for specific capabilities.
 - `templates/` defines output shapes that can be copied into Markdown, Notion, GitHub, or future tools.
 - `prompts/` defines chat prompts for the Chief of Staff and role-specific conversations.
+- `exports/` stores integrated prompts for ChatGPT or other external AI environments.
 - `runs/` stores Markdown logs for role-routed conversations or executions.
 - `memory/` stores durable context the Chief of Staff should remember.
 - `projects/` stores active or planned project documents.
